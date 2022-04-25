@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace YGOArchivees.Pages
+namespace YGOArchives.Pages
 {
     public class IndexModel : PageModel
     {
