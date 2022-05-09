@@ -4,20 +4,50 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">YGO Archives</h1>
-    <p>Welcome to YGO Archives V0.1</p>
-</div>
 
-<div class="Yugioh-cards">
-    <img class"" />
-    <p class="id"></p>
-    <p class="name"></p>
-    <p class="attribute"></p>
-    <p class="desc"></p>
-    <p class="atk"></p>
-    <p class="def"></p>
-    <p class="level"></p>
-    <p class="race"></p>
-    <p class="card_sets"></p>
-</div>
+			<div id="title">
+					<h1 class="title">YGO Archives</h1>
+					<p class="subtitle">Yu-Gi-Oh! Card Search Engine using YGOPRODECK API</p>
+			</div>
+
+			<div id="search">
+				<input
+				type="text"
+				id="card-name"
+				name="card-name"
+				placeholder="Enter words to search"/>
+				<a id="scard"><i></i></a>
+			</div>
+
+			<div id="cardlistdiv">
+				<p>
+					<i></i>&nbspSearch List
+				</p>
+				<ul id="cardlist"></ul>
+			</div>
+
+			<div id="cardinfo">
+				<p class="card-header-title">
+					<i></i>&nbspCard Info
+				</p>
+
+				<ul>
+					<li id="cardname"></li>
+					<li id="cardtype"></li>
+					<li id="cardtext"></li>
+				</ul>
+			</div>
+
+			<div id="cardimagediv">
+				<p>
+					<i></i>&nbspImagePreview
+				</p>
+				<div>
+					<img
+					src="https://vignette.wikia.nocookie.net/yugioh/images/e/e5/Back-EN.png/revision/latest/scale-to-width-down/500?cb=20100726082133"
+					id="cardimage"/>
+				</div>
+			</div>
+
+
+
