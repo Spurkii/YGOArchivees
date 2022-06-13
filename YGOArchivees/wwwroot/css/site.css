@@ -1,11 +1,13 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+        color: #FFFFFF;
+    }
 }
 
 html {
@@ -14,5 +16,21 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url(https://uploads3.yugioh.com/card_images/191/detail/Infinite-Cards.jpg?1374771618);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #FFFFFF;
+}
+
+.list {
+    cursor: pointer;
+    margin: 15px 0;
+    }
